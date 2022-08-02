@@ -1,0 +1,19 @@
+generator:
+  arch: RRDBNet
+  RRDBNet:
+    in_nc: 1
+    out_nc: 1
+    nf: 64
+    nb: 23
+    upscale: 4
+
+discrimator:
+  arch: VGG128
+  VGG128:
+    in_nc: 1
+    nf: 64
+
+train:
+  num_epochs: 250 
+  optmizer:
+    lr: 0.0001

@@ -1,0 +1,1 @@
+1. Make the dataloader to control which downampling technique to use. [Random Kernel/Bicubic Kernel]
