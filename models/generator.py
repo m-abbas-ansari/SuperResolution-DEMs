@@ -2,7 +2,7 @@ import torch
 import functools
 import torch.nn as nn
 import torch.nn.functional as F
-from ..utils import initialize_weights, make_layer
+from utils import initialize_weights, make_layer
 
 class ResidualDenseBlock_5C(nn.Module):
     def __init__(self, nf=64, gc=32, bias=True):
